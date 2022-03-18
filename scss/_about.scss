@@ -1,0 +1,38 @@
+.about {
+  font-family: "Opan Sanss", sans-serif;
+  padding: 4rem 5rem;
+  // overflow: hidden;
+}
+.about h2 {
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  //   font-family: "Quicksand", sans-serif;
+}
+
+.about p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  // #space {
+  //   padding: 9rem 5rem;
+  // }
+}
+.about h3 {
+  margin: 2rem 0;
+}
+.skills img {
+  padding: 1rem;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+  transition: ease-in-out 90ms;
+}
+.skills img:hover {
+  transition: ease-in-out 98ms transform;
+  transform: scale(1.1);
+  filter: drop-shadow(1px 1px 5px #9145b6);
+}
+.aboutPage {
+  overflow: hidden;
+}
